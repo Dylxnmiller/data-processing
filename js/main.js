@@ -1,4 +1,4 @@
-//alert('test');
+ //alert(test);
 
 //https://tinyurl.com/dynamic-html-checker
 document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
@@ -7,10 +7,15 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
 
 //manages mobile nav 
 function myFunction() {
-var x = document.getElementById("myTopnav");
-if (x.className === "topnav") {
-x.className += " responsive";
-} else {
-x.className = "topnav";
-}
-} 
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}   
+
+let myDate = new Date();
+let myYear = myDate.getFullYear();
+document.getElementById("copyright").innerHTML = myYear;
+console.log(myYear);
