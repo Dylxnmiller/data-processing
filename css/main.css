@@ -1,13 +1,13 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@90&display=swap');
 
 html {
-    font-family: 'Libre Baskerville', serif;
+    background-color: #1D2731;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    color: black;
 }
 
 ::selection {
@@ -16,7 +16,6 @@ html {
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
     font-weight: normal;
     margin: auto;
     background: #fff;
@@ -39,13 +38,13 @@ h2,h3 {
 }
 
 a {
-    color:#D4B499;
+    color:darkcyan;
     text-decoration: none;
 }
 
 a:hover {
-    color: #F3D5C0;
-    background-color: #D4B499;
+    color: whitesmoke;
+    background-color: #328CC1;
     text-decoration: none;
 }
 
